@@ -22,9 +22,9 @@ export function Model(props) {
 
     return (
     <group {...props} dispose={null}>
-        <mesh geometry={nodes.Sphere002_1.geometry} material={materials['02___Default']} />
-        <mesh geometry={nodes.Sphere002_1_1.geometry} material={materials._crayfishdiffuse} />
-        <mesh geometry={nodes.Sphere002_1_2.geometry} material={materials['03___Default']} />
+        <mesh castShadow receiveShadow geometry={nodes.Sphere002_1.geometry} material={materials['02___Default']} />
+        <mesh castShadow receiveShadow geometry={nodes.Sphere002_1_1.geometry} material={materials._crayfishdiffuse} />
+        <mesh castShadow receiveShadow geometry={nodes.Sphere002_1_2.geometry} material={materials['03___Default']} />
     </group>
     )
 }
